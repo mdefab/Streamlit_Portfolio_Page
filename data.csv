@@ -1,6 +1,8 @@
 title;description;url;image
-Fun Facts App;A streamlit app built with Python that displays fun facts about cats or dogs depending on the user's choice.;https://pythonhow.com;cat_dog_api.png
-My Business Website;A notary website built with Django, Python, JavaScript, HTML, and CSS.;https://google.com;notary.jpg
+My Business Website;A notary website built with Django, Python, JavaScript, HTML, and CSS.;https://google.com;images/notary.jpg
+Fun Facts App;A streamlit app built with Python that displays fun facts about cats or dogs depending on the user's choice.;https://pythonhow.com;images/cat_dog_api.png
+Weight Convertor;A streamlit app built with Python that allows users to convert between various weight units.;https://google.com;images/weight_calculator.jpg
+
 
 
 
