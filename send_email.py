@@ -2,6 +2,7 @@ import smtplib, ssl
 from email.message import EmailMessage
 import streamlit as st
 
+# this replaces local development environment variables "from constants import username, password"
 username = st.secrets["username"]
 password = st.secrets["password"]
 
