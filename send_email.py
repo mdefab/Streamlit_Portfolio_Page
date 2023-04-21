@@ -1,7 +1,8 @@
 import smtplib, ssl
-from constants import username, password
 from email.message import EmailMessage
 
+username = st.secrets["username"]
+password = st.secrets["password"]
 
 def send_email(sender, message):
     host = "smtp.gmail.com"
