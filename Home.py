@@ -25,7 +25,7 @@ col3, col4 = st.columns(2, gap="large")
 
 
 df = pandas.read_csv("data.csv", sep=";")
-middle_index = (len(df) // 2) + 1
+middle_index = (len(df) // 2)
 
 with col3:
     for index, row in df[0:middle_index].iterrows():
