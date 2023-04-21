@@ -1,11 +1,13 @@
 import streamlit as st
+from send_email import send_email
 
 st.header("Contact Me")
 
 with st.form(key="contact_form"):
-    st.text_input(label="Please enter your email address:", key="email")
-    st.text_area(label="Your Message:", key="description")
+    email = st.text_input(label="Please enter your email address:")
+    message = st.text_area(label="Your Message:")
     submit = st.form_submit_button(label="submit")
 
-    if "submit":
-        print(f"{st.session_state.email} wants to know {st.session_state.description}")
+    if submit:
+        send_email(email, message)
+        st.info("Thank you for your email. I will respond as soon as possible!")
