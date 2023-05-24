@@ -11,14 +11,23 @@ with col1:
 with col2:
     st.title("About Me")
     content = """
-    Write
-    About
-    Yourself
+    My name is Michael De Fabrizio. I am a lifelong learner and I have been passionate about software development for the past 1.5 years.
+    I'm a lawyer in Ontario, but I currently work fulltime as a Notary Public. In my spare time, or when I don't have a client in front of me at the office,
+    I'm always trying to improve my software development skills. I've taken Udemy courses or read through books on Python, Django, 
+    PostgresQL, Regexes, CSS/Html, and Javascript. In addition to building on these skills, I plan to learn more about cloud computing and
+    devops. And I would also like to improve my data analysis and visualization skills with Python.
+
+    I have a fairly diverse academic background with a Bachelors Degree in Honour's Science in Kinesiology, a minor
+    in Anthropology, and a Juris Doctor degree.
+
+    Besides coding, my hobbies include climbing, weightlifting, guitar, chess, and Overwatch.
+
+    Please do not hesitate to reach out to me if you have an opportunity you'd like to discuss!
     """
     st.write(content)
 
 
-st.write("Below you can find some of the apps I have built. Feel free to contact me!")
+st.write("Below you can find some of the apps I have built!")
 
 
 col3, col4 = st.columns(2, gap="large")
