@@ -13,14 +13,12 @@ with col2:
     st.title("About Me")
     content = """
     My name is Michael De Fabrizio. I am a lifelong learner and I have been passionate about software development for the past 1.5 years.
-    I currently work fulltime as a Notary Public, but in my spare time, or when I don't have a client in front of me at the office,
+    I currently work fulltime as a Notary Public, but in my spare time, or when I'm not with a client at work,
     I'm always trying to improve my programming skills. I am familiar with Python, JavaScript, Django, PostgresQL, Regexes, and HTML/CSS. In addition to building on these skills, 
     I would like to learn more about cloud computing, devops, and to improve my data analysis and visualization skills with Python.
 
-    I have a fairly diverse academic background with a Bachelors Degree in Honour's Science in Kinesiology, a minor
-    in Anthropology, and a Juris Doctor degree. 
-
-    Besides coding, my hobbies include climbing, weightlifting, guitar, chess, and Overwatch.
+    Education: Bachelors Degree in Honour's Science in Kinesiology with a minor in Anthropology, and a Juris Doctor degree. 
+    Hobbies: Climbing, Weightlifting, Guitar, Chess, and Overwatch.
 
     Please do not hesitate to reach out to me if you have an opportunity you'd like to discuss!
     """
