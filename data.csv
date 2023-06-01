@@ -1,9 +1,10 @@
 title;description;url;image
-Marker Map; A map app built with an MVC architectural pattern using JavaScript, HTML, CSS, in combination with geocode and leaflet apis to display a marker on an interactive map and output location coordinates.;https://github.com/mdefab/geolocation_project;marker_map.jpg 
+Marker Map; A map app built with an MVC architectural pattern using JavaScript, HTML, CSS, in combination with geocode and leaflet apis to display a marker on an interactive map and output location coordinates;https://github.com/mdefab/geolocation_project;map.jpg
 Fun Facts About Cats and Dogs;A streamlit app that combines Python and 3rd party APIs to display fun facts about cats and dogs;https://github.com/mdefab/random-facts-about-cats-and-dogs-streamlit;cat_dog_api.png
 Notary Public Website;A notary business website built with Django, Python, JavaScript, HTML, and CSS.;To Be Released;notary.jpg
 Weight Convertor;A streamlit app using Python to convert between various weight units.;https://github.com/mdefab/Streamlit_Weight_Convertor;weight_calculator.jpg
 Portfolio Page; This page is built with streamlit and Python;https://github.com/mdefab/Streamlit_Portfolio_Page;portfolio.jpg
+
 
 
 
