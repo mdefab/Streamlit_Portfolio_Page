@@ -12,13 +12,12 @@ with col2:
     st.title("About Me")
     content = """
     My name is Michael De Fabrizio. I am a lifelong learner and I have been passionate about software development for the past 1.5 years.
-    I'm a lawyer in Ontario, but I currently work fulltime as a Notary Public. In my spare time, or when I don't have a client in front of me at the office,
-    I'm always trying to improve my software development skills. I've taken Udemy courses or read through books on Python, Django, 
-    PostgresQL, Regexes, CSS/Html, and Javascript. In addition to building on these skills, I plan to learn more about cloud computing and
-    devops. And I would also like to improve my data analysis and visualization skills with Python.
+    I currently work fulltime as a Notary Public, but in my spare time, or when I don't have a client in front of me at the office,
+    I'm always trying to improve my programming skills. I am familiar with Python, JavaScript, Django, PostgresQL, Regexes, and HTML/CSS. In addition to building on these skills, 
+    I would like to learn more about cloud computing, devops, and to improve my data analysis and visualization skills with Python.
 
     I have a fairly diverse academic background with a Bachelors Degree in Honour's Science in Kinesiology, a minor
-    in Anthropology, and a Juris Doctor degree.
+    in Anthropology, and a Juris Doctor degree. 
 
     Besides coding, my hobbies include climbing, weightlifting, guitar, chess, and Overwatch.
 
@@ -47,7 +46,7 @@ with col4:
     for index, row in df[middle_index:].iterrows():
         st.header(row['title'])
         st.write(row['description'])
-        st.image("images/" + row['image'], use_column_width="auto")
+        st.image("./images/" + row['image'], use_column_width="auto")
         st.write(f"[Source Code]({row['url']})")
 
 
