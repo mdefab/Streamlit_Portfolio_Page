@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas
+import math
 
 st.set_page_config(layout="wide")
 
@@ -33,7 +34,8 @@ col3, col4 = st.columns(2, gap="large")
 
 
 df = pandas.read_csv("data.csv", sep=";")
-middle_index = (len(df) // 2)
+middle_index = int(math.ceil(len(df) / 2))
+print(len(df), middle_index)
 
 with col3:
     for index, row in df[0:middle_index].iterrows():
