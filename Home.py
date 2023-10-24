@@ -16,13 +16,6 @@ with col2:
     I'm always trying to improve my programming and data analysis skills. Some of the technologies I have worked with include Python, JavaScript, Django, SQL, Regexes, HTML/CSS, Excel/Spreadsheets, and Tableau. 
 
     Education: Bachelors Degree in Honour's Science in Kinesiology with a minor in Anthropology, and a Juris Doctor degree. 
-    Some of the math/stats/economics specific courses I have taken include:
-        1) Research Methodology and Data Analysis
-        2) Calculus for Life Sciences
-        3) Statistical Methods: Science
-        4) Epidiomology & Health
-        5) Law and Economics
-        *Note: many of my other undergrad courses involved statistics
 
     Please do not hesitate to reach out to me if you have an opportunity you'd like to discuss!
     """
